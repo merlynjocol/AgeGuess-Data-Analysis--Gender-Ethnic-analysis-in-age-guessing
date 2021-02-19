@@ -1,4 +1,4 @@
-# AgeGuess-Data-Analysis--Gender-Ethnic-analysis-in-age-guessing
+# Data-Analysis-Gender-Ethnic-analysis-in-age-guessing
 
 # Gender and ethnic analysis in the accuracy of age estimation
 
