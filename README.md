@@ -43,12 +43,11 @@ Age estimation is becoming more common nowadays; it is useful in different appli
 **Variables**
 
 * **Database Gamers** 
-
-* (uid) individual identifier of the user 
-* (g) number of correct guesses the user made 
-* (ng) number of other guesses 
-* (points) points gained in the online game 
-* (gender), (ethnicity), (birth country), and (birth year) is users’ basic demographic information
+* *(uid)* individual identifier of the user 
+* *(g)* number of correct guesses the user made 
+* *(ng)* number of other guesses 
+* *(points)* points gained in the online game 
+* *(gender)*, *(ethnicity)*, *(birth country)*, and *(birth year)* is users’ basic demographic information
 * *(access)* date when the user last logged 
 * *(created)*  date when the user created an account with AgeGuess. variables store the timestamp in date and time UTC + 1:00 in the format ‘YYYY-MM-DD HH:MM:SS’
 
