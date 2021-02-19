@@ -24,7 +24,7 @@ Age estimation is becoming more common nowadays; it is useful in different appli
 * Analyses 
 
 ## Files in the respository
-* AgeGuess Exploratory Data Analyses.
+* AgeGuess EDA
 * AgeGuess  Analyses
 * Pitch presentation
 
