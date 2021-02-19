@@ -112,8 +112,8 @@ https://www.ageguess.org/
 * AgeGuess Citizen Project to provide the databases. Online Game Access https://www.ageguess.org/home
 * Dusan Misevic for giving feedback on the results. Researcher at CRI - Center for Research and Interdisciplinary, Paris, France 
 * Master AIRE -CRI- Center for Research and Interdisciplinary, Paris, France 
-* ![logoCRI](https://github.com/merlynjocol/AgeGuess-Data-Analysis--Gender-Ethnic-analysis-in-age-guessing/blob/main/logoCRI.jpg)
-* 
+![logoCRI](https://github.com/merlynjocol/AgeGuess-Data-Analysis--Gender-Ethnic-analysis-in-age-guessing/blob/main/logoCRI.jpg=100x100)
+
 ## License: Copyright Open
 
 
