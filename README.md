@@ -19,29 +19,33 @@ https://www.ageguess.org/
 
 ## Table of Contents:
 
-* Exploratory Data analysis
+** Exploratory Data analysis
 * Research questions
 * Cleaning data & Featuring
-* Exploratory Data
 * Visualizations 
-* Analyses 
+
+** Data Analysis 
+* Cleaning data & Featuring
+* Merge databases
+* Analysis 
+* Visualizations
 
 ## Files in the respository
 * AgeGuess EDA
 * AgeGuess_Analysis
-* Pitch presentation
+* Pitch presentation 
+* Images of the results
+
 
 ## Dataset information. 
 
-* Open-source data
-* Data collection from 2012
 * Public Data Set: https://www.ageguess.org/download
 
 **Database information** 
 * 220.231 Age guess  
-* 4651 photos that have been upload by citizens and used by gamers 
+* 4651 photos have been uploaded by citizens and used by gamers 
 * 4437 citizens who have engaged with the project since 2012
-* 3644 Gamers (guessers) who have to guess the age in AgeGuess Project
+* 3644 Gamers (guessers) 
 
 **Variables**
 
@@ -105,8 +109,9 @@ The project were developed in DeepNote and Google drive
 
 ## Credits:
 * AgeGuess Citizen Project to provide the databases. Online Game Access https://www.ageguess.org/home
-* Dusan Misevic for the feed back in the results. Researcher at CRI - Center for Research and Interdisciplinary, Paris, France 
-
+* Dusan Misevic for giving feedback on the results. Researcher at CRI - Center for Research and Interdisciplinary, Paris, France 
+* Master AIRE -CRI- Center for Research and Interdisciplinary, Paris, France 
+* 
 ## License: Copyright Open
 
 
