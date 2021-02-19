@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is part of Digital Project Course in the Master of Digital Science. 
+This project is part of Digital Project Course in the Master of Digital Science in the Center for Research and Interdisciplinarity -CRI- Paris. France
 
 The research aims to explore the existence of gender and ethnic bias in the accuracy of age estimation based on images. The dataset used in this analysis is from AgeGuess, a citizen science project on human biological and chronological age.  
 
@@ -13,6 +13,8 @@ Age estimation is becoming more common nowadays; it is useful in different appli
 * **AgeGuess** is an online game using biological and perceived age as biomarkers to address ageing humans' scientific questions. Trough gamification of the perceived age enables the collection of large amounts of data.
 
 ![logoAgeGuess](https://github.com/merlynjocol/AgeGuess-Data-Analysis--Gender-Ethnic-analysis-in-age-guessing/blob/main/logoAgeGuess.png)
+
+https://www.ageguess.org/
 
 
 ## Table of Contents:
