@@ -25,7 +25,7 @@ Age estimation is becoming more common nowadays; it is useful in different appli
 
 ## Files in the respository
 * AgeGuess EDA
-* AgeGuess  Analyses
+* AgeGuess_Analysis
 * Pitch presentation
 
 ## Dataset information. 
@@ -42,16 +42,16 @@ Age estimation is becoming more common nowadays; it is useful in different appli
 
 **Variables**
 
-* **Database Gamers** 
-* *(uid)* individual identifier of the user 
-* *(g)* number of correct guesses the user made 
-* *(ng)* number of other guesses 
-* *(points)* points gained in the online game 
+**Database Gamers** 
+* (uid) individual identifier of the user 
+* (g)* number of correct guesses the user made 
+* (ng)* number of other guesses 
+* (points)* points gained in the online game 
 * *(gender)*, *(ethnicity)*, *(birth country)*, and *(birth year)* is users’ basic demographic information
 * *(access)* date when the user last logged 
 * *(created)*  date when the user created an account with AgeGuess. variables store the timestamp in date and time UTC + 1:00 in the format ‘YYYY-MM-DD HH:MM:SS’
 
-* **Database Guess**
+**Database Guess**
 * *(uid)* individual identifiers of the user who made the guess
 * *(guess_id)* the guess itself
 * *(photo_id)* the photograph guessed 
@@ -59,7 +59,7 @@ Age estimation is becoming more common nowadays; it is useful in different appli
 * *(outG)* the deviation in the guess from the real age in years
 * *(access)* date and time of the guess  UTC + 1:00 in the format ‘YYYY-MM-DD HH:MM:SS’
 
-* **Database Photos**
+**Database Photos**
 * *(uid)* individual identifier of the user who uploaded the photograph 
 * *(photo_id)* Id for  the photograph uploaded.
 * *(relation)* variable indicates whether the photograph is of the user or of another person to which the user has a relation (categories: user, unrelated of friend, mother/father, son/daughter, sibling, half sibling, maternal/paternal grandparent, maternal/paternal aunt/uncle, maternal/paternal cousin, grandchild). 
@@ -68,7 +68,36 @@ Age estimation is becoming more common nowadays; it is useful in different appli
 
 ## Installation:
 * Python 3.7
-* Packages
+* libraries
+* #Import libraries
+import pandas as pd
+from pandas import DataFrame, read_csv   #conda install -c anaconda xlrd
+from datetime import datetime
+import numpy as np
+import functools
+from functools import reduce
+
+#graphs
+import os
+from plotly.offline import init_notebook_mode, iplot
+import plotly.graph_objs as go
+init_notebook_mode(connected=True)
+import matplotlib
+import matplotlib.pyplot as plt
+from matplotlib import rcParams
+from matplotlib import gridspec
+import seaborn as sns
+import functools
+from functools import reduce
+
+#map graphs and geovariables
+import geopy
+import folium
+from folium.plugins import MarkerCluster
+
+#build reports
+from pandas_profiling import ProfileReport
+
 
 ## Credits:
 * AgeGuess Citizen Project to provide the databases. Online Game Access https://www.ageguess.org/home
