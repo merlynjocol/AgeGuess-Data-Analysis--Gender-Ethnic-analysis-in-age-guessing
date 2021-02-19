@@ -75,7 +75,7 @@ https://www.ageguess.org/
 
 ## Installation:
 * Python 3.7
-The project were developed in DeepNote and Google drive
+* The project were developed in DeepNote and Google drive
 
 #Python libraries
 * import pandas as pd
