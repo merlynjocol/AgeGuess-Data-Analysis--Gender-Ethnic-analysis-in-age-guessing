@@ -35,6 +35,7 @@ https://www.ageguess.org/
 * AgeGuess_Analysis
 * Pitch presentation 
 * Images of the results
+* Dataset with GeoVariables: custom.geo.json
 
 
 ## Dataset information. 
