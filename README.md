@@ -41,22 +41,22 @@ https://www.ageguess.org/
 
 **Code and Data**
 
-* notebook.ipynb: Python code with libraries pandas, datetime, numpy, functools
+* `notebook.ipynb.md` : Python code with libraries pandas, datetime, numpy, functools
 * Build reports: ProfileReport, pandas_profiling 
 * Graphs libraries:  matplotlib, pyplot, seaborn 
 * Maps libraries: geopy, folium
 
 **Datasets** 
-* ag_guess.csv Dataset with 220.231 Age guess
-* ag_gamers.csv Dataset of 4651 photos have been uploaded by citizens and used by gamers 
-* ag_photos.csv Dataset of 4437 citizens who have engaged with the project since 2012
-* custom.geo.json: Dataset with geovariables of the countries and map world. https://geojson-maps.ash.ms/
+* `ag_guess.csv` Dataset with 220.231 Age guess
+* `ag_gamers.csv` Dataset of 4651 photos have been uploaded by citizens and used by gamers 
+* `ag_photos.csv` Dataset of 4437 citizens who have engaged with the project since 2012
+* `custom.geo.json`: Dataset with geovariables of the countries and map world. https://geojson-maps.ash.ms/
 * Access to the Public AgueGuess Dataset: https://www.ageguess.org/download
 
 
 **Variables information**
 
-**ag_guess.csv** 
+`ag_guess.csv` 
 * *(uid)* individual identifier of the user 
 * *(g)* number of correct guesses the user made 
 * *(ng)* number of other guesses 
@@ -65,7 +65,7 @@ https://www.ageguess.org/
 * *(access)* date when the user last logged 
 * *(created)*  date when the user created an account with AgeGuess. variables store the timestamp in date and time UTC + 1:00 in the format ‘YYYY-MM-DD HH:MM:SS’
 
-**ag_gamers.csv**
+`ag_gamers.csv`
 * *(uid)* individual identifiers of the user who made the guess
 * *(guess_id)* the guess itself
 * *(photo_id)* the photograph guessed 
@@ -73,7 +73,7 @@ https://www.ageguess.org/
 * *(outG)* the deviation in the guess from the real age in years
 * *(access)* date and time of the guess  UTC + 1:00 in the format ‘YYYY-MM-DD HH:MM:SS’
 
-**ag_photos.csv**
+`ag_photos.csv`
 * *(uid)* individual identifier of the user who uploaded the photograph 
 * *(photo_id)* Id for  the photograph uploaded.
 * *(relation)* variable indicates whether the photograph is of the user or of another person to which the user has a relation (categories: user, unrelated of friend, mother/father, son/daughter, sibling, half sibling, maternal/paternal grandparent, maternal/paternal aunt/uncle, maternal/paternal cousin, grandchild). 
