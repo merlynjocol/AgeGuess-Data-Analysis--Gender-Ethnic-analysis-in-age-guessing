@@ -106,7 +106,7 @@ https://www.ageguess.org/
 * Dusan Misevic for the feedback on the results. Director of Research Affairs at CRI - Center for Research and Interdisciplinary. Paris, France 
 * Master AIRE -CRI- Center for Research and Interdisciplinary. Paris, France 
 
-![logoCRI](https://github.com/merlynjocol/AgeGuess-Data-Analysis--Gender-Ethnic-analysis-in-age-guessing/blob/main/logoCRI.jpg)
+<img src="https://github.com/merlynjocol/AgeGuess-Data-Analysis--Gender-Ethnic-analysis-in-age-guessing/blob/main/logoCRI.jpg" width="100" height="100">
 
 ## License: Copyright Open
 
