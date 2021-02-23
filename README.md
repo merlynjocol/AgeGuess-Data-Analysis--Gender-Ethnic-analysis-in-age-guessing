@@ -31,11 +31,10 @@ https://www.ageguess.org/
 * Visualizations: barplots, scatterplots, heatmap
 
 # Files in the respository
-* AgeGuess EDA
-* AgeGuess_Analysis
-* Pitch presentation 
-* Results image
-
+* `AgeGuess EDA.ipynb`: Contain the Exploratory Data Analysis
+* `AgeGuess_Analysis.ipynb`: Contain the Analysis and final visualizations
+* `Pitch_Presentation.pdf`: Presentation of the analysis and results
+* `Results_AgeEstimation.jpg`: Image with the main results 
 
 # Installation guide:
 
