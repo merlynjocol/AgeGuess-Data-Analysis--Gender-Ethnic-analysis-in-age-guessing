@@ -1,6 +1,6 @@
 # Gender and ethnic analysis in the accuracy of age estimation
 
-## Description:
+# Description:
 
 This project is part of Digital Project Course in the Master of Digital Science in the Center for Research and Interdisciplinarity -CRI- Paris. France
 
@@ -17,31 +17,31 @@ Age estimation is becoming more common nowadays; it is useful in different appli
 https://www.ageguess.org/
 
 
-## Approaching the Solution:
+# Approaching the Solution:
 
-### 1 Exploratory Data analysis
+## 1 Exploratory Data analysis
 * Research questions. After install and explore the data, I re-defined the research questions and the scope of the research. In the beginning,  I planned to analyzed gender, ethnicity and wellbeing in age estimation, but the dataset has few data for low and middle-income countries; for that reason, the research question is the focus on gender and ethnicity. 
 * Cleaning data & Featuring. The dataset of gamers, especially data of birth, need to be clean. The country names in the dataset of gamers and photos need to change to the standard words used for Nature Earth, to connect with the geovariables. 
 * Exploratory visualizations: The visualization are reports (pandas_profiling import ProfileReport), maps, piecharts, barplots, histograms and lineplots in every dataset
 
-### 2 Data Analysis 
+## 2 Data Analysis 
 * Featuring: create new variables in the dataframes to do the analyses related to Accuracy (Mean Absolute Error - MAE)
 * Merge databases: The datasets merged were ag_gamers, ag_guess and ag_photos
 * Analysis: the analysis was base on the bias (real age - estimation age) and the Accuracy (absolute value of bias); the study takes the entire age estimation, and it is cross trough ethnicities and gender 
 * Visualizations: barplots, scatterplots, heatmap
 
-## Files in the respository
+# Files in the respository
 * AgeGuess EDA
 * AgeGuess_Analysis
 * Pitch presentation 
 * Results image
 
 
-## Installation guide:
+# Installation guide:
 
 **Code and Data**
 
-* `notebook.ipynb.md` : Python code with libraries pandas, datetime, numpy, functools
+* `notebook.ipynb` : Python code with libraries pandas, datetime, numpy, functools
 * Build reports: ProfileReport, pandas_profiling 
 * Graphs libraries:  matplotlib, pyplot, seaborn 
 * Maps libraries: geopy, folium
@@ -50,9 +50,8 @@ https://www.ageguess.org/
 * `ag_guess.csv` Dataset with 220.231 Age guess
 * `ag_gamers.csv` Dataset of 4651 photos have been uploaded by citizens and used by gamers 
 * `ag_photos.csv` Dataset of 4437 citizens who have engaged with the project since 2012
-* `custom.geo.json`: Dataset with geovariables of the countries and map world. https://geojson-maps.ash.ms/
+* `custom.geo.json`: Dataset with geovariables of the countries and worldmap. https://geojson-maps.ash.ms/
 * Access to the Public AgueGuess Dataset: https://www.ageguess.org/download
-
 
 **Variables information**
 
@@ -81,18 +80,18 @@ https://www.ageguess.org/
 * *(created)* variable stores the timestamp when the photograph was added in date and time UTC + 1:00 ‘YYYY-MM-DD HH:MM:SS’.
 
 
-## Results:
+# Results:
 
 ![logoCRI](https://github.com/merlynjocol/AgeGuess-Data-Analysis--Gender-Ethnic-analysis-in-age-guessing/blob/main/Results_AgeEstimation.JPG)
 
-## Credits:
+# Credits:
 * AgeGuess Citizen Project to provide the databases. Online Game Access https://www.ageguess.org/home
 * Dusan Misevic for the feedback on the results. Director of Research Affairs at CRI - Center for Research and Interdisciplinary. Paris, France 
 * Master AIRE -CRI- Center for Research and Interdisciplinary. Paris, France 
 
 <img src="https://github.com/merlynjocol/AgeGuess-Data-Analysis--Gender-Ethnic-analysis-in-age-guessing/blob/main/logoCRI.jpg" width="100" height="100">
 
-## License: 
+# License: 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
