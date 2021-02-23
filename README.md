@@ -97,10 +97,14 @@ https://www.ageguess.org/
 * pandas_profiling import ProfileReport
 
 
+## Results:
+
+![logoCRI](https://github.com/merlynjocol/AgeGuess-Data-Analysis--Gender-Ethnic-analysis-in-age-guessing/blob/main/Results_AgeEstimation.JPG)
+
 ## Credits:
 * AgeGuess Citizen Project to provide the databases. Online Game Access https://www.ageguess.org/home
-* Dusan Misevic for giving feedback on the results. Researcher at CRI - Center for Research and Interdisciplinary, Paris, France 
-* Master AIRE -CRI- Center for Research and Interdisciplinary, Paris, France 
+* Dusan Misevic for the feedback on the results. Director of Research Affairs at CRI - Center for Research and Interdisciplinary. Paris, France 
+* Master AIRE -CRI- Center for Research and Interdisciplinary. Paris, France 
 
 ![logoCRI](https://github.com/merlynjocol/AgeGuess-Data-Analysis--Gender-Ethnic-analysis-in-age-guessing/blob/main/logoCRI.jpg)
 
