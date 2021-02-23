@@ -79,33 +79,22 @@ https://www.ageguess.org/
 * The project were developed in DeepNote and Google drive
 
 #Python libraries
-* import pandas as pd
-* from pandas import DataFrame, read_csv   #conda install -c anaconda xlrd
-* from datetime import datetime
-* import numpy as np
-* import functools
-* from functools import reduce
+* pandas
+* datetime
+* numpy
+* functools
 
 #graphs
-* import os
-* from plotly.offline import init_notebook_mode, iplot
-* import plotly.graph_objs as go
-* init_notebook_mode(connected=True)
-* import matplotlib
-* import matplotlib.pyplot as plt
-* from matplotlib import rcParams
-* from matplotlib import gridspec
-* import seaborn as sns
-* import functools
-* from functools import reduce
+* matplotlib
+* matplotlib.pyplot as plt
+* seaborn 
 
 #map graphs and geovariables
-* import geopy
-* import folium
-* from folium.plugins import MarkerCluster
+* geopy
+* folium
 
 #build reports
-* from pandas_profiling import ProfileReport
+* pandas_profiling import ProfileReport
 
 
 ## Credits:
