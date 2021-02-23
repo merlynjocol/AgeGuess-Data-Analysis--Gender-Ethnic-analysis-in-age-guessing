@@ -8,7 +8,7 @@ The research aims to explore the existence of gender and ethnic bias in the accu
 
 * **Importance of Age Estimation** 
 
-Age estimation is becoming more common nowadays; it is useful in different applications, such as video surveillance, demographics collections, business intelligence, recognition of people for business, social or humanitarian purposes; the scenarios are different. However, how the observer estimated the apparent age of a person needs a better comprehension of bias and the accuracy in age estimation because these datasets are using more and more for prediction based on Machine Learning algorithms. An inaccurate dataset may increase inequalities in society. 
+Age estimation is becoming more common nowadays; it is useful in different applications, such as video surveillance, demographics collections, business intelligence, recognition of people for business, social or humanitarian purposes; the scenarios are different. However, how the observer estimated the apparent age of a person needs a better comprehension of bias and the accuracy in age estimation. Inaccuraty in age estimation may increase inequalities in society. 
 
 * **AgeGuess** is an online game using biological and perceived age as biomarkers to address ageing humans' scientific questions. Trough gamification of the perceived age enables the collection of large amounts of data.
 
