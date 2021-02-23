@@ -1,6 +1,6 @@
 # Gender and ethnic analysis in the accuracy of age estimation
 
-## Description
+## Description:
 
 This project is part of Digital Project Course in the Master of Digital Science in the Center for Research and Interdisciplinarity -CRI- Paris. France
 
@@ -37,13 +37,13 @@ https://www.ageguess.org/
 * Results image
 
 
-## Installation guide
+## Installation guide:
 
 **Code and Data**
 
 * notebook.ipynb: Python code with libraries pandas, datetime, numpy, functools
-* Build reports: pandas_profiling import ProfileReport
-* Graphs libraries:  matplotlib, matplotlib.pyplot as plt, seaborn 
+* Build reports: ProfileReport, pandas_profiling 
+* Graphs libraries:  matplotlib, pyplot, seaborn 
 * Maps libraries: geopy, folium
 
 **Datasets** 
@@ -65,7 +65,7 @@ https://www.ageguess.org/
 * *(access)* date when the user last logged 
 * *(created)*  date when the user created an account with AgeGuess. variables store the timestamp in date and time UTC + 1:00 in the format ‘YYYY-MM-DD HH:MM:SS’
 
-**ag_gamers.csv*
+**ag_gamers.csv**
 * *(uid)* individual identifiers of the user who made the guess
 * *(guess_id)* the guess itself
 * *(photo_id)* the photograph guessed 
@@ -92,6 +92,9 @@ https://www.ageguess.org/
 
 <img src="https://github.com/merlynjocol/AgeGuess-Data-Analysis--Gender-Ethnic-analysis-in-age-guessing/blob/main/logoCRI.jpg" width="100" height="100">
 
-## License: Copyright Open
+## License: 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 
