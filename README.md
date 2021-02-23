@@ -20,8 +20,8 @@ https://www.ageguess.org/
 # Approaching the Solution:
 
 ## 1 Exploratory Data analysis
-* Research questions. After install and explore the data, I re-defined the research questions and the scope of the research. In the beginning,  I planned to analyzed gender, ethnicity and wellbeing in age estimation, but the dataset has few data for low and middle-income countries; for that reason, the research question is the focus on gender and ethnicity. 
-* Cleaning data & Featuring. The dataset of gamers, especially data of birth, need to be clean. The country names in the dataset of gamers and photos need to change to the standard words used for Nature Earth, to connect with the geovariables. 
+* Research questions. After install and explore the data, I re-defined the research questions and the scope of the research. In the beginning,  I planned to analyzed the bias and accuracy in age estimation based on gender, ethnicity and country wellbeing, but the dataset has few ageestimationdata for guessers from low and middle-income countries; for that reason, this study does not include wellbeing indicators and is focus on gender and ethnicity. 
+* Cleaning data & Featuring. Remove outliers fromm gamers who has year of birth before 1934. The country names in the dataset of gamers and photos need to change to the standard names used for Nature Earth, to connect with geovariables and build the maps. 
 * Exploratory visualizations: The visualization are reports (pandas_profiling import ProfileReport), maps, piecharts, barplots, histograms and lineplots in every dataset
 
 ## 2 Data Analysis 
