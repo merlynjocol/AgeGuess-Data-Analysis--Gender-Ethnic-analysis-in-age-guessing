@@ -17,40 +17,46 @@ Age estimation is becoming more common nowadays; it is useful in different appli
 https://www.ageguess.org/
 
 
-## Table of Contents:
+## Approaching the Solution:
 
-** Exploratory Data analysis
-* Research questions
-* Cleaning data & Featuring
-* Visualizations 
+### 1 Exploratory Data analysis
+* Research questions. After install and explore the data, I re-defined the research questions and the scope of the research. In the beginning,  I planned to analyzed gender, ethnicity and wellbeing in age estimation, but the dataset has few data for low and middle-income countries; for that reason, the research question is the focus on gender and ethnicity. 
+* Cleaning data & Featuring. The dataset of gamers, especially data of birth, need to be clean. The country names in the dataset of gamers and photos need to change to the standard words used for Nature Earth, to connect with the geovariables. 
+* Exploratory visualizations: The visualization are reports (pandas_profiling import ProfileReport), maps, piecharts, barplots, histograms and lineplots in every dataset
 
-** Data Analysis 
-* Cleaning data & Featuring
-* Merge databases
-* Analysis 
-* Visualizations
+### 2 Data Analysis 
+* Featuring: create new variables in the dataframes to do the analyses related to Accuracy (Mean Absolute Error - MAE)
+* Merge databases: The datasets merged were ag_gamers, ag_guess and ag_photos
+* Analysis: the analysis was base on the bias (real age - estimation age) and the Accuracy (absolute value of bias); the study takes the entire age estimation, and it is cross trough ethnicities and gender 
+* Visualizations: barplots, scatterplots, heatmap
 
 ## Files in the respository
 * AgeGuess EDA
 * AgeGuess_Analysis
 * Pitch presentation 
-* Images of the results
-* Dataset with GeoVariables: custom.geo.json
+* Results image
 
 
-## Dataset information. 
+## Installation guide
 
-* Public Data Set: https://www.ageguess.org/download
+**Code and Data**
 
-**Database information** 
-* 220.231 Age guess  
-* 4651 photos have been uploaded by citizens and used by gamers 
-* 4437 citizens who have engaged with the project since 2012
-* 3644 Gamers (guessers) 
+* notebook.ipynb: Python code with libraries pandas, datetime, numpy, functools
+* Build reports: pandas_profiling import ProfileReport
+* Graphs libraries:  matplotlib, matplotlib.pyplot as plt, seaborn 
+* Maps libraries: geopy, folium
 
-**Variables**
+**Datasets** 
+* ag_guess.csv Dataset with 220.231 Age guess
+* ag_gamers.csv Dataset of 4651 photos have been uploaded by citizens and used by gamers 
+* ag_photos.csv Dataset of 4437 citizens who have engaged with the project since 2012
+* custom.geo.json: Dataset with geovariables of the countries and map world. https://geojson-maps.ash.ms/
+* Access to the Public AgueGuess Dataset: https://www.ageguess.org/download
 
-**Database Gamers** 
+
+**Variables information**
+
+**ag_guess.csv** 
 * *(uid)* individual identifier of the user 
 * *(g)* number of correct guesses the user made 
 * *(ng)* number of other guesses 
@@ -59,7 +65,7 @@ https://www.ageguess.org/
 * *(access)* date when the user last logged 
 * *(created)*  date when the user created an account with AgeGuess. variables store the timestamp in date and time UTC + 1:00 in the format ‘YYYY-MM-DD HH:MM:SS’
 
-**Database Guess**
+**ag_gamers.csv*
 * *(uid)* individual identifiers of the user who made the guess
 * *(guess_id)* the guess itself
 * *(photo_id)* the photograph guessed 
@@ -67,34 +73,12 @@ https://www.ageguess.org/
 * *(outG)* the deviation in the guess from the real age in years
 * *(access)* date and time of the guess  UTC + 1:00 in the format ‘YYYY-MM-DD HH:MM:SS’
 
-**Database Photos**
+**ag_photos.csv**
 * *(uid)* individual identifier of the user who uploaded the photograph 
 * *(photo_id)* Id for  the photograph uploaded.
 * *(relation)* variable indicates whether the photograph is of the user or of another person to which the user has a relation (categories: user, unrelated of friend, mother/father, son/daughter, sibling, half sibling, maternal/paternal grandparent, maternal/paternal aunt/uncle, maternal/paternal cousin, grandchild). 
 * *(gender)*,*( ethnicity)*, *(birth_country)*, *(birth_year)*, *(death_age)* variables contain the respective basic demographic information for the person in the photograph. 
 * *(created)* variable stores the timestamp when the photograph was added in date and time UTC + 1:00 ‘YYYY-MM-DD HH:MM:SS’.
-
-## Installation:
-* Python 3.7
-* The project were developed in DeepNote and Google drive
-
-#Python libraries
-* pandas
-* datetime
-* numpy
-* functools
-
-#graphs
-* matplotlib
-* matplotlib.pyplot as plt
-* seaborn 
-
-#map graphs and geovariables
-* geopy
-* folium
-
-#build reports
-* pandas_profiling import ProfileReport
 
 
 ## Results:
